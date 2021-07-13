@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Manisini portfolio-item-ella</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/onecupmocha.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class = "nav__list"><!-- means list is a subclass of nav-->
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#skills" class="nav__link">My Skills</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#projects" class="nav__link">My Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Ella<strong>Your personal medical assitant</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Hyland Hackathon 2021, Team SMSN </p>
+            <img src="img/portfolio2.jpg" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>This is my first time as a hackathon participant. It was a team of four members. Ella is a telegram bot which acts as a personal medical assistant. The bot can analyse your symptoms(mental, physical) and accordingly suggest doctors and even provide links to book video consulation with the doctor. The bot can also analyse covid symptoms and give details of nearest vacant covid beds. The bot uses an API to fetch data of the covid beds. The user can also send a SOS message to the Ella Community asking help for oxygen cylinders, blood etc. For now, anyone can log into Ella Community via their google account. Covid bed details of only West Bengal can be fetched by the API at present.</p>
+            <img src="img/portfolio2-pic2.jpg" alt="">
+            <p>I did some minor editing in the EC User Interface but mainly worked on the conversation flow for which we used Dialogflow. Dialogflow is a natural language understanding platform used to design and integrate a conversational user interface into mobile apps, web applications, devices, bots, interactive voice response systems and related uses.</p>
+            <img src="img/portfolio2-pic3.jpg" alt="">
+            <p></p>
+            <div class="portfolio-item-individual-tech-stack">
+                <h3>Tech Stack Used</h3>
+                <ul>
+                    <li>React</li>
+                    <li>NodeJS</li>
+                    <li>Firebase</li>
+                    <li>Dialogflow</li>
+    
+                </ul>
+                
+            </div>
+            <div class="portfolio-item-individual-tech-stack">
+                <h3>Contact my team members:</h3>
+                <ul>
+                    <li> Spandan Saha : <a href="mailto:g.spandansaha@gmail.com" class = "footer-link">g.spandansaha@gmail.com</a></li>
+                    <li> Soubhik Das : <a href="mailto:soubhikdas2000@gmail.com" class = "footer-link">soubhikdas2000@gmail.com</a></li>
+                    <li> Nikhil Kumar : <a href="mailto:kumarnikhil237@gmail.com" class = "footer-link">kumarnikhil237@gmail.com</a></li>
+    
+                </ul>
+                
+            </div>
+            <div class = "visit"><a href="https://t.me/Ella_helpbot" class = "btn"  target="_blank">Get the telegram bot</a></div>
+            <br>
+            <div class = "visit"><a href="https://ec-interface.herokuapp.com/" class = "btn"  target="_blank">Visit Ella Community</a></div>
+        </div>
+        
+        
+        
+        <!-- Footer -->
+        <footer class = "footer">
+            <a href="mailto:manisini.chakraborty@gmail.com" class = "footer-link">manisini.chakraborty@gmail.com</a>
+            <ul class = "social-list">
+                <li class = "social-list__item">
+                    <a class = "social-list__link"> <i class="fab fa-instagram-square"></i></a>
+                </li>
+                <li class = "social-list__item">
+                    <a class = "social-list__link"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class = "social-list__item">
+                     <a class = "social-list__link"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li class = "social-list__item">
+                    <a class = "social-list__link"><i class="fab fa-github"></i></a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>

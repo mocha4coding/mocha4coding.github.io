@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1.8"><!--to make sure website works properly on small screen as well big ones-->
+        <title>Manisini Portfolio</title>
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" 
+        crossorigin="anonymous" />  
+
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/487336b9c8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class = "logo">
+                <img src = "img/onecupmocha.png" alt = "">
+            </div>
+
+            <button class = "nav-toggle" aria-label = "toggle navigation">
+                <span class = "hamburger"></span>
+            </button>
+            <nav class = "nav">
+                <ul class = "nav__list"><!-- means list is a subclass of nav-->
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">My Skills</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+
+        <!--Introduction-->
+        <section class="intro" id = "home">
+            <h1 class = "section__title section__title--intro">
+                Hi, I am <strong>Manisini Chakraborty</strong>
+            </h1>
+            <p class = "section__subtitle section__subtitle--intro">Information Technology Student</p>
+            <img src="img/Mani.jfif" alt = "Photo" class = "intro__img">
+        </section>
+
+
+
+        <!--My skills-->
+        <section class = "my-skills" id = "skills">
+            <h2 class = "sectin__title section__title--skills">My Skills</h2>
+            <div class = "skills">
+                
+                <div class = "skill">
+                    <h3>Languages</h3>
+                    <ul class = "list-of-skills">
+                        <li>C</li> 
+                        <li>C++</li>
+                        <li>C#</li>
+                        <li>JavaScript</li>
+                        <li>HTML</li> 
+                        <li>CSS</li>
+                        <li>Java</li> 
+                        <li>SQL</li> 
+                    </ul>
+                </div><!--/skill-->
+
+                <div class = "skill">
+                    <h3>Frameworks and Libraries</h3>
+                    <ul class = "list-of-skills">
+                        <li>.NET</li> 
+                        <li>Unity3D</li>
+                        <li>STL</li>
+                        <li>OpengGL</li>
+                        <li>React</li> 
+                        
+                    </ul>
+                  
+                </div><!--/skill-->
+
+                <div class = "skill">
+                    <h3>Other Skills</h3>
+                    <ul class = "list-of-skills">
+                        <li>Dialogflow</li>                 
+                        
+                    </ul>
+                </div><!--/skill-->
+
+                
+            </div><!--/skills-->
+
+            <a href="#projects" class = "btn">My Projects</a>
+        </section>
+
+
+
+        <!--About me-->
+        <section class = "about-me" id = "about">
+            
+            <h2 class = "section__title section__title--about">Who I am</h2>
+            <p class = "section__subtitle section__subtitle--about">A final year Undergraduate Student</p>
+        
+            <div class = "about-me__body">
+                <p>Hello, I am Manisini Chakraborty. Currently I am pursuing a B.Tech in Information Technology at Indian Institute of Engineering, Science and TechnologyI was initially pulled into competitve programming by my peers but soon I realised it is not something I enjoy. Hence I have started learning web development, which I am enjoying a lot frankly..</p>
+                <p>In my free time, I do digital painting, or just learn new stuffs which I eventually forget though because of lack of practice or applying what I am learning.</p>
+            </div>
+            
+            <img src="img/myphoto.jpg" alt = "some photo of mine" class = "about-me__img">
+        </section>
+
+
+
+        <!--My Projects-->
+        <section class = "my-project" id = "projects">
+            <h2 class="section__title">My Projects</h2>
+            <p class="section__subtitle">Collection of projects I have done in my free time, my college or while participating in hackathons. Click on the thumbnail to know more about the project.</p>
+            
+            <div class="portfolio">
+                <a href = "portfolio-item-mochabrain.html" class = "portfolio__item">
+                    <img src = "img/portfolio1.jpg" alt = "" class = "portfolio__img">
+                </a>
+
+                <a href = "portfolio-item-ella.html" class = "portfolio__item">
+                    <img src = "img/portfolio2.jpg" alt = "" class = "portfolio__img">
+                </a>
+
+                <a href = "portfolio-item-boatwreck.html" class = "portfolio__item">
+                    <img src = "img/portfolio3.jpg" alt = "" class = "portfolio__img">
+                </a>
+
+                <a href = "portfolio-item-to-do-list.html" class = "portfolio__item">
+                    <img src = "img/portfolio4.jpg" alt = "" class = "portfolio__img">
+                </a>
+
+                <a href = "portfolio-item-maze-generator.html" class = "portfolio__item">
+                    <img src = "img/portfolio5.jpg" alt = "" class = "portfolio__img">
+                </a>
+
+                
+
+              
+            </div>
+        </section>
+
+
+        <!--Footer-->
+        <footer class = "footer">
+            <a href="mailto:manisini.chakraborty@gmail.com" class = "footer-link">manisini.chakraborty@gmail.com</a>
+            <ul class = "social-list">
+                <li class = "social-list__item">
+                    <a class = "social-list__link"> <i class="fab fa-instagram-square"></i></a>
+                </li>
+                <li class = "social-list__item">
+                    <a class = "social-list__link"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class = "social-list__item">
+                     <a class = "social-list__link"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li class = "social-list__item">
+                    <a class = "social-list__link"><i class="fab fa-github"></i></a>
+                </li>
+            </ul>
+        </footer>
+        <script src = "js/index.js"></script>
+    </body>
+</html>
