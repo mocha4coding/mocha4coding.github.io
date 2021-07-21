@@ -325,7 +325,7 @@ header{
     text-align: left;
 }
 .skill{
-    max-width: 500px;
+    width: 500px;
     margin: 0 auto;
 }
 
@@ -342,6 +342,88 @@ header{
     }
 }
 
+.bar{
+    background: var(--clr-dark);
+    display: block;
+    height: 7px;
+    border: 1px solid rgba(var(--clr-dark));
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 5px var(--clr-light);
+}
+
+.bar span{
+    height: 7px;
+    float: left;
+    background: var(--clr-accent);
+}
+
+
+/*Rating each skill*/
+
+.c{
+    width: 85%;
+}
+
+.cpp{
+    width: 90%;
+}
+
+.csharp{
+    width: 30%;
+}
+
+.jscript{
+    width: 20%;
+}
+
+.html{
+    width: 55%;
+
+}
+.css{
+    width: 25%;
+}
+
+.java{
+    width: 30%;
+}
+
+.sql{
+    width: 80%
+}
+.python{
+    width: 5%;
+}
+.net{
+    width: 20%;
+}
+
+.unity{
+    width:40%;
+}
+
+.stl{
+    width: 70%;
+}
+
+.opengl{
+    width: 20%;
+}
+
+.react
+{
+    width: 15%;
+}
+.diaflow
+{
+    width: 27%
+}
+
+.wordpress{
+    width: 40%;
+}
+/*About me section*/
 .about-me{
     max-width: 1000px;
     margin: 0 auto;
